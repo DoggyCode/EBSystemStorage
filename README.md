@@ -7,7 +7,6 @@ let system = EBSystemStorage()
 system.accessKey = "UseThisKeyToAccessThisObject"
 let name = "Fido"
 system.saveObject(name)
-system.requestAccess()
 ```
 
 #Fetch Data
