@@ -10,8 +10,10 @@ import Foundation
 
 public class EBSystemStorage {
     
-    //ACCESS KEY
+    //ACCESS KEYS
     var accessKey = String()
+    
+    var result: AnyObject?
     
     //SAVE TO DISK
     func saveObject(object: AnyObject?) {
@@ -28,7 +30,7 @@ public class EBSystemStorage {
         
         if accessKey.characters.count != 0 {
             
-            let result = NSUserDefaults.standardUserDefaults().objectForKey(accessKey)
+            self.result = NSUserDefaults.standardUserDefaults().objectForKey(accessKey)
             
             if let result = result {
                 
