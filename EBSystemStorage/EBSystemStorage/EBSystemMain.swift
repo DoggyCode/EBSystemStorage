@@ -16,6 +16,7 @@ public class EBSystemStorage {
     var result: AnyObject?
     
     //SAVE TO DISK
+    ///This function saves data to the disk.
     func saveObject(object: AnyObject?) {
         
         if object != nil {
@@ -26,6 +27,7 @@ public class EBSystemStorage {
     }
     
     //FETCH OBJECT FROM DISK
+    ///Use this function to access the data you stored.
     func requestAccess() {
         
         if accessKey.characters.count != 0 {
