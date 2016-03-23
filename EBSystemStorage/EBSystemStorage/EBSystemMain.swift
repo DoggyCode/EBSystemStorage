@@ -40,4 +40,14 @@ public class EBSystemStorage {
             }
         }
     }
+    
+    func removeObject() {
+        
+        if accessKey.characters.count != 0 {
+            
+            NSUserDefaults.standardUserDefaults().removeObjectForKey(accessKey)
+            NSLog("Object removed with the key: \(accessKey)")
+        }
+        
+    }
 }
