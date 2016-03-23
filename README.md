@@ -32,6 +32,12 @@ class ViewController: UIViewController {
     }
 }
 ```
+#Remove Data
+```
+let system = EBSystemStorage()
+system.accessKey = "SomeRandomKey"
+system.removeObject()
+```
 
 #More Information
 - You can create as many instances of EBSystemStorage as you want! This will help you save more data.
