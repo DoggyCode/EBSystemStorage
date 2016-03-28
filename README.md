@@ -1,5 +1,5 @@
 # EBSystemStorage
-Easy way to save small pieces of code in your application! 
+Easy way to save small pieces of code in your application! This is designed for Swift :D 
 
 #Save Data
 ```
