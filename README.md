@@ -1,5 +1,5 @@
 # EBSystemStorage
-Easy way to save small pieces of code in your application! This is designed for Swift :D 
+Easy way to save small pieces of code in your application! This is designed for Swift, hopefully being rewritten in Java shortly @DoggyCode :D
 
 #Save Data
 ```
